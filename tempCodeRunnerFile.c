@@ -1,7 +1,6 @@
-   // int **c;
-    // c=&b;
-    // printf("\nThe value of **c is: %d\n",**c);
-
-    // int ***d;
-    // d=&c;
-    // printf("\nThe value of ***d is: %d\n",***d);
+    // x = 1;
+    // y = 2;
+    // printf("\n * ptr1: %d", * ptr1);
+    // printf("\n * ptr2: %d", * ptr2);
+    // printf("\n ptr1: %d", ptr1);
+    // printf("\n ptr2: %d", ptr2);
