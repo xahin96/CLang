@@ -23,6 +23,11 @@ main()
     printf("The address after dereferencing temp %p\n",temp);
     printf("The value after dereferencing temp %f\n",*temp);
 
+    printf("The address after dereferencing ptr1 %d\n",ptr1);
+    printf("The address after dereferencing temp %d\n",temp);
+    printf("The address after dereferencing temp %p\n",temp);
+    printf("The value after dereferencing temp %f\n",*temp);
+    
     int *nullPtr = NULL;
     printf("The address stored in ptr is %p\n", (void*)nullPtr);
     printf("The address stored in ptr is %d\n", nullPtr);
