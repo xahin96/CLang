@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/zahin/My Files/uWindsor/COMP 8567/Lecture 2/Pointers and Functions/nullp'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _division, symObjAddr: 0x0, symBinAddr: 0x100003E3C, symSize: 0x74 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _division, symObjAddr: 0x0, symBinAddr: 0x100003E3C, symSize: 0x74 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x74, symBinAddr: 0x100003EB0, symSize: 0x8C }
+...
