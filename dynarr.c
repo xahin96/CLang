@@ -9,21 +9,27 @@ int main(void)
     int *ar;
     ar = malloc(n * sizeof(int));
 
+//    for (int i = 0; i < n; i++)
+//    {
+//        printf("Enter element %d\n", i);
+//        scanf("%d", &ar[i]);
+//    }
+
     for (int i = 0; i < n; i++)
     {
         printf("Enter element %d\n", i);
-        scanf("%d", &ar[i]);
+        scanf("%d", (ar+i));
     }
 
 	for (int i = 0; i < n; i++)
     {
-        printf("%d \n", &ar[i]);
+        printf("%d \n", (&ar+i));
     }
 
     printf("\nThe elements of the array are\n");
     for (int i = 0; i < n; i++)
     {
-        printf("%d\n", ar[i]);
+        printf("%d\n", *(ar+i));
     }
     free(ar);
 }
